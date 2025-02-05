@@ -1,5 +1,0 @@
-/Users/abhishek/HelloWorldApp/calculator/build/CMakeFiles/calculator.dir
-/Users/abhishek/HelloWorldApp/calculator/build/CMakeFiles/calculator_test.dir
-/Users/abhishek/HelloWorldApp/calculator/build/CMakeFiles/test.dir
-/Users/abhishek/HelloWorldApp/calculator/build/CMakeFiles/edit_cache.dir
-/Users/abhishek/HelloWorldApp/calculator/build/CMakeFiles/rebuild_cache.dir
