@@ -14,7 +14,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y cppcheck
 
       - name: Run cppcheck
-        run: run: cppcheck --enable=all --inconclusive --quiet --error-exitcode=1 --suppress=missingInclude --suppress=missingIncludeSystem .
+        run: cppcheck --enable=all --inconclusive --quiet --error-exitcode=1 --suppress=missingInclude --suppress=missingIncludeSystem .
 
 
 
