@@ -14,5 +14,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y cppcheck
 
       - name: Run cppcheck
-        run: cppcheck --enable=all --inconclusive --quiet --error-exitcode=1 .
+        run: cppcheck --enable=all --inconclusive --quiet --error-exitcode=1 \
+     	--template=gcc -I src/ -I tests/ --suppress=missingIncludeSystem .
+
 
